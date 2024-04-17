@@ -12,7 +12,7 @@ public class TestPerson {
         long actualId = 241;
         String actuatlName= "John";
 
-        long expectedId = person.getId(241);
+        long expectedId = person.getId();
         String expectedName = person.getName();
 
         Assert.assertEquals(actuatlName, expectedName);

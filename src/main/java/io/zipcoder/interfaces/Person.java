@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
-    private static List<Person> personList = new ArrayList<>();
+    static List<Person> personList = new ArrayList<>();
 
      final long id;
      String name;
@@ -15,8 +15,10 @@ public class Person {
         personList.add(this);
     }
 
-    public static long getId(int id) {
-        return id;
+
+
+    public long getId() {
+        return this.id;
     }
 
     public String getName() {
