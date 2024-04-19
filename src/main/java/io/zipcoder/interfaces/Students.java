@@ -6,7 +6,7 @@ public class Students extends People {
 
     public Students() {
         add(new Student(1, "John I"));
-        add(new Student(2, "Bob II"));
+        add(new Student(2, "John II"));
     }
 
     public static Students getInstance(){
